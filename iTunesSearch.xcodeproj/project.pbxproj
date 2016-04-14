@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C4A2ADD1CB49FE500F3EBA7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A2ADC1CB49FE500F3EBA7 /* DetailViewController.m */; };
+		0C4A2AE11CB4A18700F3EBA7 /* Track.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A2AE01CB4A18700F3EBA7 /* Track.m */; };
+		0C4A2AE41CB4A22000F3EBA7 /* TrackManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A2AE31CB4A22000F3EBA7 /* TrackManager.m */; };
+		0C4A2B001CB4BC0400F3EBA7 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A2AE91CB4BC0400F3EBA7 /* AbstractActionSheetPicker.m */; };
+		0C4A2B071CB4BC0400F3EBA7 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A2AF91CB4BC0400F3EBA7 /* ActionSheetStringPicker.m */; };
+		0C4A2B101CB4BF2400F3EBA7 /* SKActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C4A2B0F1CB4BF2400F3EBA7 /* SKActionSheet.m */; };
 		21F3F9761CB4587A00DA0EC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F3F9751CB4587A00DA0EC2 /* main.m */; };
 		21F3F9791CB4587A00DA0EC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F3F9781CB4587A00DA0EC2 /* AppDelegate.m */; };
 		21F3F97C1CB4587A00DA0EC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F3F97B1CB4587A00DA0EC2 /* ViewController.m */; };
@@ -15,6 +21,8 @@
 		21F3F9841CB4587A00DA0EC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21F3F9831CB4587A00DA0EC2 /* Assets.xcassets */; };
 		21F3F9871CB4587A00DA0EC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21F3F9851CB4587A00DA0EC2 /* LaunchScreen.storyboard */; };
 		21F3F9921CB4587A00DA0EC2 /* iTunesSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F3F9911CB4587A00DA0EC2 /* iTunesSearchTests.m */; };
+		21F3F99E1CB45AB300DA0EC2 /* customCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F3F99D1CB45AB300DA0EC2 /* customCell.m */; };
+		21F3F9A11CB45B8200DA0EC2 /* iService.m in Sources */ = {isa = PBXBuildFile; fileRef = 21F3F9A01CB45B8200DA0EC2 /* iService.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +36,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C4A2ADB1CB49FE500F3EBA7 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		0C4A2ADC1CB49FE500F3EBA7 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		0C4A2ADF1CB4A18700F3EBA7 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
+		0C4A2AE01CB4A18700F3EBA7 /* Track.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Track.m; sourceTree = "<group>"; };
+		0C4A2AE21CB4A22000F3EBA7 /* TrackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackManager.h; sourceTree = "<group>"; };
+		0C4A2AE31CB4A22000F3EBA7 /* TrackManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackManager.m; sourceTree = "<group>"; };
+		0C4A2AE81CB4BC0400F3EBA7 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		0C4A2AE91CB4BC0400F3EBA7 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		0C4A2AF81CB4BC0400F3EBA7 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		0C4A2AF91CB4BC0400F3EBA7 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActionSheetStringPicker.m; sourceTree = "<group>"; };
+		0C4A2B0E1CB4BF2400F3EBA7 /* SKActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKActionSheet.h; sourceTree = "<group>"; };
+		0C4A2B0F1CB4BF2400F3EBA7 /* SKActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKActionSheet.m; sourceTree = "<group>"; };
 		21F3F9711CB4587A00DA0EC2 /* iTunesSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F3F9751CB4587A00DA0EC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		21F3F9771CB4587A00DA0EC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,6 +62,10 @@
 		21F3F98D1CB4587A00DA0EC2 /* iTunesSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iTunesSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F3F9911CB4587A00DA0EC2 /* iTunesSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesSearchTests.m; sourceTree = "<group>"; };
 		21F3F9931CB4587A00DA0EC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21F3F99C1CB45AB300DA0EC2 /* customCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customCell.h; sourceTree = "<group>"; };
+		21F3F99D1CB45AB300DA0EC2 /* customCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customCell.m; sourceTree = "<group>"; };
+		21F3F99F1CB45B8200DA0EC2 /* iService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iService.h; sourceTree = "<group>"; };
+		21F3F9A01CB45B8200DA0EC2 /* iService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iService.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +86,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		21F3F9681CB4587A00DA0EC2 = {
+		0C4A2ADE1CB4A16C00F3EBA7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				21F3F99F1CB45B8200DA0EC2 /* iService.h */,
+				21F3F9A01CB45B8200DA0EC2 /* iService.m */,
+				0C4A2ADF1CB4A18700F3EBA7 /* Track.h */,
+				0C4A2AE01CB4A18700F3EBA7 /* Track.m */,
+				0C4A2AE21CB4A22000F3EBA7 /* TrackManager.h */,
+				0C4A2AE31CB4A22000F3EBA7 /* TrackManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		0C4A2AE71CB4BBE700F3EBA7 /* CustomPicker */ = {
+			isa = PBXGroup;
+			children = (
+				0C4A2AE81CB4BC0400F3EBA7 /* AbstractActionSheetPicker.h */,
+				0C4A2AE91CB4BC0400F3EBA7 /* AbstractActionSheetPicker.m */,
+				0C4A2AF81CB4BC0400F3EBA7 /* ActionSheetStringPicker.h */,
+				0C4A2AF91CB4BC0400F3EBA7 /* ActionSheetStringPicker.m */,
+				0C4A2B0E1CB4BF2400F3EBA7 /* SKActionSheet.h */,
+				0C4A2B0F1CB4BF2400F3EBA7 /* SKActionSheet.m */,
+			);
+			path = CustomPicker;
+			sourceTree = "<group>";
+		};
+		0C4A2B111CB4C29E00F3EBA7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21F3F97D1CB4587A00DA0EC2 /* Main.storyboard */,
+				21F3F99C1CB45AB300DA0EC2 /* customCell.h */,
+				21F3F99D1CB45AB300DA0EC2 /* customCell.m */,
+				0C4A2AE71CB4BBE700F3EBA7 /* CustomPicker */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		0C4A2B121CB4C2BB00F3EBA7 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				21F3F9731CB4587A00DA0EC2 /* iTunesSearch */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		0C4A2B131CB4C2D200F3EBA7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				21F3F97A1CB4587A00DA0EC2 /* ViewController.h */,
+				21F3F97B1CB4587A00DA0EC2 /* ViewController.m */,
+				0C4A2ADB1CB49FE500F3EBA7 /* DetailViewController.h */,
+				0C4A2ADC1CB49FE500F3EBA7 /* DetailViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		21F3F9681CB4587A00DA0EC2 = {
+			isa = PBXGroup;
+			children = (
+				0C4A2B121CB4C2BB00F3EBA7 /* Main */,
 				21F3F9901CB4587A00DA0EC2 /* iTunesSearchTests */,
 				21F3F9721CB4587A00DA0EC2 /* Products */,
 			);
@@ -83,15 +163,9 @@
 		21F3F9731CB4587A00DA0EC2 /* iTunesSearch */ = {
 			isa = PBXGroup;
 			children = (
-				21F3F9771CB4587A00DA0EC2 /* AppDelegate.h */,
-				21F3F9781CB4587A00DA0EC2 /* AppDelegate.m */,
-				21F3F97A1CB4587A00DA0EC2 /* ViewController.h */,
-				21F3F97B1CB4587A00DA0EC2 /* ViewController.m */,
-				21F3F97D1CB4587A00DA0EC2 /* Main.storyboard */,
-				21F3F9831CB4587A00DA0EC2 /* Assets.xcassets */,
-				21F3F9851CB4587A00DA0EC2 /* LaunchScreen.storyboard */,
-				21F3F9881CB4587A00DA0EC2 /* Info.plist */,
-				21F3F9801CB4587A00DA0EC2 /* iTunesSearch.xcdatamodeld */,
+				0C4A2B131CB4C2D200F3EBA7 /* Controller */,
+				0C4A2B111CB4C29E00F3EBA7 /* View */,
+				0C4A2ADE1CB4A16C00F3EBA7 /* Model */,
 				21F3F9741CB4587A00DA0EC2 /* Supporting Files */,
 			);
 			path = iTunesSearch;
@@ -100,6 +174,12 @@
 		21F3F9741CB4587A00DA0EC2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				21F3F9831CB4587A00DA0EC2 /* Assets.xcassets */,
+				21F3F9881CB4587A00DA0EC2 /* Info.plist */,
+				21F3F9801CB4587A00DA0EC2 /* iTunesSearch.xcdatamodeld */,
+				21F3F9851CB4587A00DA0EC2 /* LaunchScreen.storyboard */,
+				21F3F9771CB4587A00DA0EC2 /* AppDelegate.h */,
+				21F3F9781CB4587A00DA0EC2 /* AppDelegate.m */,
 				21F3F9751CB4587A00DA0EC2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -214,10 +294,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				21F3F99E1CB45AB300DA0EC2 /* customCell.m in Sources */,
+				0C4A2B001CB4BC0400F3EBA7 /* AbstractActionSheetPicker.m in Sources */,
 				21F3F97C1CB4587A00DA0EC2 /* ViewController.m in Sources */,
+				0C4A2B101CB4BF2400F3EBA7 /* SKActionSheet.m in Sources */,
+				0C4A2B071CB4BC0400F3EBA7 /* ActionSheetStringPicker.m in Sources */,
 				21F3F9791CB4587A00DA0EC2 /* AppDelegate.m in Sources */,
+				21F3F9A11CB45B8200DA0EC2 /* iService.m in Sources */,
 				21F3F9761CB4587A00DA0EC2 /* main.m in Sources */,
 				21F3F9821CB4587A00DA0EC2 /* iTunesSearch.xcdatamodeld in Sources */,
+				0C4A2ADD1CB49FE500F3EBA7 /* DetailViewController.m in Sources */,
+				0C4A2AE41CB4A22000F3EBA7 /* TrackManager.m in Sources */,
+				0C4A2AE11CB4A18700F3EBA7 /* Track.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iTunesSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Adit.Test.iTunesSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -359,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = iTunesSearch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Adit.Test.iTunesSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,6 +498,7 @@
 				21F3F9981CB4587A00DA0EC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21F3F9991CB4587A00DA0EC2 /* Build configuration list for PBXNativeTarget "iTunesSearchTests" */ = {
 			isa = XCConfigurationList;
@@ -416,6 +507,7 @@
 				21F3F99B1CB4587A00DA0EC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

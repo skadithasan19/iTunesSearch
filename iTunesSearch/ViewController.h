@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TrackManager.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UISearchBarDelegate>
 
+@property (weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
 @end
 
